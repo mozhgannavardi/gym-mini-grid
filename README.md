@@ -14,6 +14,6 @@ git clone https://github.com/lcswillems/torch-ac.git
 cd torch-ac
 pip3 install -e .
 cd ..
-python3 -m scripts.train --algo ppo --env MiniGrid-GoToDoor-5x5-v0 --model GoToDoor --text --save-interval 10 --frames 2000000
+python3 -m scripts.train --algo ppo --env MiniGrid-GoToDoor-8x8-v0 --model GoToDoor --text --save-interval 10 --frames 2000000
 
 ```
